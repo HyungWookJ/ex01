@@ -1,0 +1,558 @@
+@media screen and (min-width: 1921px) {  
+	/* header */
+	.headInner { max-width: inherit; }
+	.logo { left: calc(50% - 900px); }
+	.Gnb { margin: 0 auto; max-width: 1920px; }
+	.lnb_wrap { left: 0; }
+	.whale_down { right: calc(57% - 900px); }
+	.whale_down1 { right: calc(50% - 900px); }
+}
+
+@media screen and (max-width:1600px) {  
+	/* header */
+	.logo{ left: 3%; /* width: 180px; */ width: 150px; }	
+	.main_function.security .func_slideimg { height: auto; box-sizing: border-box; }
+
+	/* btn_whaledown os checking */
+	.btn_whaledown.ios a {width:156px; height:50px; text-indent: -9999rem; }
+	.btn_whaledown.ios > a:after {position:absolute; top:0; left:0; width:100%; height:100%; background: url(/_resource/img/main/app_ios.png) 50% 50% no-repeat; background-size:auto 27px; margin:0; }
+	.btn_whaledown.android a {width:156px; height:50px; text-indent: -9999rem; }
+	.btn_whaledown.android > a:after {position:absolute; top:0; left:0; width:100%; height:100%; background: url(/_resource/img/main/app_google.png) 50% 50% no-repeat; background-size:auto 26px; margin:0;}
+}
+
+@media screen and (max-width:1280px) {  
+	/* 공통 */
+	.inner{ width: 90%; margin: 0 auto; }
+	/* download - sticky_btn */
+	article.download .sticky_btn { left: calc(50% - 100px); width: 200px; height: 64px; background-size: contain; }
+	article.download .sticky_btn a { padding: 17px 40px 23px 90px; font-size: 20px; }
+	.en article.download .sticky_btn a { padding: 18px 29px 28px 85px; font-size: 20px; }
+
+	/* header */
+	.logo_whale { width: 140px; }
+	.whale_down { top: 25px; right: 11%; width: 100px; height: 40px; font-size: 15px; line-height: 40px; }
+	.whale_down1 { top: 25px; right: 1%; width: 100px; height: 40px; font-size: 15px; line-height: 40px; }
+	.ccGnb .top_gnb .inner { width: 80%; }
+	.ccGnb .lnb_wrap .inner { width: 80%; }
+	.dep01 a.depth1_menu { font-size: 16px; }
+	.dep01 li { width: 13%; }
+	.lnb_wrap .dep02_wrap .dep02 > li > a { font-size: 14px; }
+	.lnb_wrap .dep02_wrap .dep02 { width: 13%; }
+
+	/* footer */
+	footer .go_beta { position: relative; top: inherit; right: inherit; margin: 30px 0 0; }
+
+
+	
+	/* main */
+	.topArea_tx h3{
+		font-size:50px;
+	}	
+	.topArea_subtx{
+		font-size:22px;
+	}
+	 .btn_whaledown > a{
+		width:200px;
+		font-size:24px;
+		border-radius:32px;
+		height:64px;
+		line-height:64px;	
+	}
+	.btn_whaledown > a:after{
+		height:64px;
+	} 
+
+	/* btn_whaledown os checking */
+	.btn_whaledown.ios > a:before { top: calc(50% - 18px); width: 200px; }
+	.btn_whaledown.android > a:before { top: calc(50% - 18px); width: 200px; }
+	.func_slidetx { padding-left: 5%; width: 45%; }
+	.func_slidetx h4 {
+		font-size: 44px;
+		padding: 20px 0 60px;
+	}
+	.func_slidetx .subtitle {
+		font-size: 22px;
+	}
+	.main_rightimgbg { background-size: 70%; background-position: center right; }
+
+	/* why we whale */
+	.tabcontent .tx-under {
+		font-size:22px;
+	}
+	.tabcontent [class*='whywhale_'] .inner{
+		width:90%;
+		margin:0 auto;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_tx h3{
+		padding-left: 66px;
+		height: 60px;
+		line-height: 60px;
+		font-size:40px;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_tx h4 {
+		font-size:22px;
+	}
+	.tabcontent .function_detailgo li{
+		padding-left:22px;
+	}
+	.tabcontent .function_detailgo li a {
+		line-height: 18px;
+		font-size: 16px;
+	}
+	.tabcontent .function_detailgo li:before {
+		width: 16px;
+		height: 16px;
+		background: url('/_resource/img/whywhale/icon_function_detailgo.png') no-repeat top center;
+		background-size:100%;
+	}
+	.tabcontent .function_detailgo2 li a {
+		line-height: 18px;
+		font-size: 16px;
+	}
+	.tabcontent [class*='whywhale_a_'] h3:before{
+		width:60px;
+		height:60px;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_img{
+		width:55%;
+	}
+	.whywhale_a_quick h3:before {
+		width: 60px;
+		height: 60px;
+	}
+	.tabcontent .function_detailgo li{
+		margin-bottom:12px;
+	}
+	.tabcontent .function_tx h4 {
+		margin: 25px 0 40px;
+	}
+	.devicetype > span{
+		width:60px;
+		height:45px;
+	}
+	.devicetype span.tx{
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width:980px) {
+	header{
+		height:60px;
+	}
+	/* download - sticky_btn */
+	article.download { display:none; }
+
+	.logo{
+		top: 10px;
+		left: 4%;
+	}
+	.Gnb { display: none; }
+	.Gnb_m { display: block; }
+
+	.login ul li a{
+		font-weight: lighter;
+		color: #eee;
+		letter-spacing: 2px;
+	}
+	
+
+	/* main */
+	.main_top { margin: 60px 0 0; height: 750px; min-height: auto; background: transparent url(/_resource/img/main/top_bg_m.jpg) no-repeat center/ cover; }
+	.main_rightimgbg{
+		max-width:500px;
+		height:100%;
+		background:url('/_resource/img/main/top_rightimg_bg_m.png') no-repeat 65% 90%;
+		background-size:100%;
+		width:80%;
+	}
+	.main_rightimgbg figure.moving_01 , .main_rightimgbg figure.moving_02 , .main_rightimgbg figure.moving_03{
+		display:none;
+	}
+	.topArea_tx {
+		top: 100px;
+		transform: translateY(0);
+	}
+	.topArea_tx h3 {
+		font-size: 40px;
+	}
+	.topArea_subtx {
+		font-size: 18px;
+	}
+	.main_function{
+		height:600px;
+	}
+	.func_slidetx h4 {
+		font-size: 32px;
+		padding: 20px 0 40px;
+	}
+	.func_slidetx .subtitle {
+		font-size: 18px;
+	}
+	.func_slideArea_view > a{
+		font-size:15px;
+		color:#fff;
+		background-size:12px 12px;
+		padding-right:20px;
+	}
+	.downsec_gif {
+		max-width: 400px;
+	}
+	
+	/* why we whale */
+	.whywhale_topbn.tab1 { background: url(/_resource/img/whywhale/top_tasking_bg_m.jpg) no-repeat top right calc(50% - 35%); }
+	.whywhale_topbn.tab2 { background: url(/_resource/img/whywhale/top_security_bg_m.jpg) no-repeat top right calc(50% - 35%); }
+	.whywhale_topbn.tab3 { background: url(/_resource/img/whywhale/top_custom_bg_m.jpg) no-repeat top right; }
+	.toptxArea { display: block; padding: 0 5%; height:100%; background: url('/_resource/img/whywhale/top_object_tasking.png') no-repeat bottom right; }
+	.whywhale_topbn.tab2 .toptxArea{ padding: 0 5%; background:url('/_resource/img/whywhale/top_object_security.png') no-repeat  bottom right; }	
+	.whywhale_topbn.tab3 .toptxArea{ padding: 0 5%; background:url('/_resource/img/whywhale/top_object_custom.png') no-repeat bottom right; }
+	.whywhale_topbn.tab1 .inner { width: 100%; }
+	.whywhale_topbn.tab2 .inner { width: 100%; }
+	.whywhale_topbn.tab3 .inner { width: 100%; }
+	.toptxArea h3{
+		padding-top:80px;
+	}
+	.tabcontent h3{
+		font-size: 40px;
+	}
+	.tabcontent .tx-under{
+		font-size: 18px;
+	}
+	.tabcontent .tx-under{
+		padding: 20px 0 50px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	/* -----------------------------------------------
+                                 Main
+   --------------------------------------------------- */
+   .main_function{
+		height:auto;
+		padding-bottom:80px;
+   }
+   .main_function .inner_wide , .main_function .swiper-container , .main_function .swiper-slide , .main_function .func_slideArea, .main_function .func_slidetx{
+		height:auto;
+		padding-bottom:10px;
+	}
+	.main_function.custom{
+		  padding-bottom: 0;
+	}
+	.main_function.custom .swiper-slide .func_slideArea{
+		  padding-bottom: 80px;
+	}
+	.main_function .swiper-container-horizontal >.swiper-pagination-bullets{
+		bottom:0;
+	}
+	.main_function.custom .swiper-container-horizontal >.swiper-pagination-bullets{
+		bottom:66px;
+	}
+	.func_slideArea{
+		display:block;
+		width:100%;
+	}	
+	.func_slidetx{
+		display:block;
+		width:100%;
+		margin-top:70px;
+	}	
+	.func_slideimg{
+		display:block;
+		width:100%;
+		max-width:600px;
+		margin:20px auto 0;
+	}	
+	.downsec_gif {
+		max-width: 300px;
+	}
+	/* -----------------------------------------------------
+							   Why we Whale
+	------------------------------------------------------- */	 
+	 .whywhale_top .fnTab li{
+		max-width:330px;
+		height:50px;
+		line-height:50px;
+	}
+	.whywhale_top .fnTab li .tab_contents{
+		font-size: 12px;
+		background-size:14px auto;
+		padding: 15px 20px;
+		background-position: bottom 17px left;
+	}
+	.whywhale_top .fnTab li.current .tab_contents{
+		background-size: 14px auto;
+		background-position: top 17px left;
+	}
+	 .tabcontent article[class*='whywhale_a_']{
+		height:auto;
+	 }
+	.tabcontent [class*='whywhale_a_'] .function_tx{
+		display:block;
+		width:100%;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_tx h3{
+		height: 50px;
+		line-height: 50px;
+		padding-left: 60px;
+		font-size:32px;
+	}
+	.tabcontent [class*='whywhale_a_'] h3:before { width: 50px; height: 50px; }
+	.tabcontent [class*='whywhale_a_'] .function_img{
+		display:block;
+		width: 82.8%;
+		text-align:center;
+		margin:10% auto 0 ;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_img img{
+		display:block;
+	}
+	.tabcontent article[class*='whywhale_a_']:nth-child(even) .function_tx{
+		padding-top:80px;
+	}
+	.tabcontent article[class*='whywhale_a_']:nth-child(even) .function_img{
+		padding-bottom:80px;
+	}
+
+	.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_tx{
+		padding-left:0;
+	}
+	.tabcontent article[class*='whywhale_a_']:nth-child(odd){
+		position:relative;
+		padding-top:80px;
+	}
+	.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img{
+		position:absolute;
+		top:45%;
+		left:50%;
+		transform:translateX(-50%);
+		width: 75%;
+	}	
+	.en .tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img { top: 35%; }
+	 #tab3.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img{
+		top:40%;
+	}
+	.en #tab2.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img { top: 35%; }
+	.tabcontent [class*='whywhale_a_'] .function_tx h4{
+		font-size:18px;
+	}
+	.toptxArea { background-size: 80%; }
+	.whywhale_topbn.tab2 .toptxArea{ background-size: 80%; }
+	.whywhale_topbn.tab3 .toptxArea{ background-size: 80%; } 	
+
+	 /* Brand Story */
+	 .brand_storyWrap figcaption h3{
+		font-size:30px;
+	}
+	.brand_storyWrap figcaption h4{
+		font-size:32px;
+	}
+	.mov_undertx {
+		font-size: 18px; line-height: 1.6;
+	}
+	.brand_snsWrap h5 {
+		font-size: 20px;
+		padding-bottom: 30px;
+	}
+	.brand_snsWrap h5 img{
+		max-width:100px;
+		margin-bottom:20px;
+	}
+	.snsArea li{
+		padding:0 6px;
+		max-width:60px;
+	}
+	.snsArea li img{
+		display:block;
+		width:100%;
+	}
+	.func_slideimg .imgWrap > img{
+		width:90%;
+		margin:0 auto;
+	}
+	.devicetype.dule > p{
+		display:inline-block;
+		padding-top:20px;
+		position:relative;
+		width:90px;
+		height:56px;
+	}
+	.devicetype.dule > p span.tx{
+		font-size:12px;
+	}
+	.devicetype > span{
+		width:90px;
+		height:70px;
+		background-size:100%;
+	}
+	.devicetype .device_pc{
+		width:90px;
+		height: 40px;
+	}
+	.devicetype .device_m{
+		width:90px;
+		height: 40px;
+	}
+
+	/* ---------------------------------------
+                         footer
+   ------------------------------------ */
+	footer{
+		padding:40px 0;
+	}
+	footer h2{
+		max-width:120px;
+	}
+	.foot_addr{
+		font-size:12px;
+		padding:10px 0;
+	}	
+	footer ul li a{
+		font-size:12px;
+		padding:0 10px;
+	}
+	footer .pc_only { display: none; }
+	footer .mb_only { display: inline-block; }
+	footer .go_beta a { padding: 0 15px 0 35px; height: 38px; font-size: 14px; line-height: 38px; }
+	footer .go_beta a::before { top: calc(50% - 8px); left: calc(50% - 47px); width: 16px; height: 16px; }
+	.en footer .go_beta a::before { left: calc(50% - 52px); }
+}
+
+@media screen and (max-width:520px) {   
+	/* footer */
+	footer ul li { margin: 10px 0 0; text-align: left; }
+	footer ul li::after { display: none; }
+	
+	/* 메인 */
+	.main_top {
+		height: 560px; 
+	}
+	.main_rightimgbg { background-size: 75%; }
+	.topArea_tx .btn_whaledown {
+		margin-top: 30px;
+	}
+	.btn_whaledown > a {
+		width: 154px;
+		font-size: 17px;
+		border-radius: 26.5px;
+		height: 52px;
+		line-height: 52px;
+	}
+	.btn_whaledown > a:after {
+        width:20px;
+		height:52px;
+        margin:0 0 0 12px;
+	}
+
+	/* btn_whaledown os checking */
+	.btn_whaledown.ios > a:before { top: calc(50% - 14px); width: 160px; }
+	.btn_whaledown.android > a:before { top: calc(50% - 14px); width: 160px; }
+	.func_slidetx h4 {
+		font-size: 34px;
+		padding: 16px 0 40px;
+	}
+	.func_slidetx .subtitle {
+		font-size: 18px;
+	}
+	.sec_whaledown{
+		padding:15% 0;
+	}
+	.func_slidetx h4 .point_bg_white{
+		padding:0 5px;
+	}
+	.toptxArea { background-size: contain; }
+	.whywhale_topbn.tab3 .toptxArea{ background-size: contain; }
+	.topArea_tx h3 {
+		font-size: 34px;
+	}
+	.topArea_subtx {
+		font-size: 16px;
+	}
+
+	/* why we whale */
+	.tabcontent h3{
+		font-size:32px;
+	}
+	.tabcontent .tx-under{
+		font-size:16px;
+	}
+	.tabcontent .tx-under {
+		padding: 20px 0 30px;
+	}
+	.tabcontent .function_detailgo li a {
+		line-height: 16px;
+		font-size: 14px;
+	}
+	.tabcontent .function_detailgo li:before { top: calc(50% - 7px); width: 14px; height: 14px; }
+	.tabcontent .function_detailgo2 li a {
+		line-height: function_detailgo;
+		font-size: 14px;
+	}
+	.tabcontent .function_tx h4 {
+		margin: 20px 0 30px;
+	}
+	.tabcontent [class*='whywhale_a_'] h3:before {
+		width: 44px;
+		height: 44px;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_tx h3 {
+		padding-left: 54px;
+		height: 44px;
+		line-height: 44px;	
+		font-size: 28px;
+	}
+	.tabcontent [class*='whywhale_a_'] .function_tx h4 {
+		font-size: 16px;
+	}
+
+	.tabcontent article[class*='whywhale_a_']:nth-child(even) .function_tx{
+		padding-top:50px;
+	} 
+	.tabcontent article[class*='whywhale_a_']:nth-child(even) .function_img{
+		padding-bottom:50px;
+	}
+	
+	.toptxArea h3 {
+		padding-top: 50px;
+	}
+	.tabcontent [class*='whywhale_'] .inner{
+		height: 600px;
+	}
+	.tabcontent [class*='whywhale_a_'] .inner{
+		height: 480px;
+	}	
+	.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_tx{ margin-top: -30px; }	
+	.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img{ top:53%; width: 74%; }
+	#tab2.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img { top: 48%; }	
+	#tab3.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img { top: 42%; }
+	.tabWrap #tab3.tabcontent article.whywhale_a_them .function_img { top: 50%; }
+	.en .tabcontent article[class*='whywhale_a_']:nth-child(odd) .inner { height: 400px; }
+	.en .tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img { top: 42%; }
+	.en #tab2.tabcontent article[class*='whywhale_a_']:nth-child(odd) .function_img { top: 42%; }
+	.en .tabWrap #tab3.tabcontent article.whywhale_a_them .function_img { top: 42%; bottom: auto; }
+	.devicetype span.tx{
+		margin-right: 5px;
+	}
+
+	/* brand story */
+    .brand_storyWrap figcaption h3 {font-size:24px;}
+	.brand_storyWrap figcaption img{
+		max-width: 180px;
+	}
+	.brand_storyWrap figcaption h4{
+		padding-top: 10px;
+		font-size: 22px;		    
+	}
+	.brand_storyWrap figure {     width: 100%; }
+	.mov_undertx {
+		font-size: 16px;
+		margin-top:5px;
+	}
+	.brand_snsWrap h5 img {
+		max-width: 80px;
+	}
+    .brand_snsWrap .snsArea {text-align:center; font-size:0;}
+    .brand_snsWrap .snsArea li {width:26%; max-width:26%; margin:4px 3% 4px 0;}
+    .brand_snsWrap .snsArea li:nth-child(3n+1) {margin-left:8%;}
+    .brand_snsWrap .snsArea li:nth-child(3n) {margin-right:8%;}
+    .brand_snsWrap .snsArea li a {display:block; max-width:60px; margin:0 auto;}
+    .brand_storyWrap .mov_undertx {font-size:15px;}
+}
